@@ -17,6 +17,7 @@ input {
   font-size: 14px;
   width: 15vw;
   height: 32px;
+  padding-left: 10px;
 }
 
 .card-grid {
