@@ -1,0 +1,62 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+  padding: 60px;
+}
+
+p {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+
+input {
+  color: grey;
+  font-size: 14px;
+  width: 15vw;
+  height: 32px;
+}
+
+.card-grid {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #eaedec;
+  border-radius: 15px;
+  padding: 46px;
+}
+
+.card {
+  align-content: center;
+  border: 1px solid #dddddd;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  overflow: hidden;
+  width: min-content;
+  background-color: white;
+}
+
+.card p {
+  padding: 18px 20px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+.card img {
+  max-height: 170px;
+}
+
+.app-container {
+  padding: 20px;
+}
+
+.app-text {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 20px;
+}
